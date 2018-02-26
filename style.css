@@ -130,7 +130,7 @@ h1,h4,h5 {
   margin-right: 8px;
 }
 
-.card-body {
+.cards .card-body {
   height: 94px;
 }
 /*-----------------------------------------------
@@ -138,6 +138,15 @@ h1,h4,h5 {
 
 .price {
   min-height: 500px;
+}
+
+#mid-card .card-header {
+  height: 150px;
+}
+
+.price .card {
+  position: relative;
+  bottom:0;
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
@@ -157,4 +166,13 @@ h1,h4,h5 {
 .col-sm-6  {
     margin-bottom: 30px;
   }
+
+  .price .card-header h1{
+    color:black;
+  }
+
+   .price .card-header h4 {
+     color:#e84545;
+   }
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 }
