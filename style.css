@@ -54,7 +54,7 @@ a {
   background-color: #e84545;
   color: white;
 }
-h1,h4 {
+h1,h4,h5 {
   text-align: center;
   color:white;
   font-family: 'Bariol_Regular';
@@ -66,6 +66,7 @@ h1,h4 {
   min-height: 300px;
   top: -8px;
   position: relative;
+  padding: 35px;
 }
 
 .cta h4 {
@@ -80,9 +81,7 @@ h1,h4 {
   background-position: center;
   height: 100px;
 }
-.cta img{
 
-}
 .cta h2 {
   color:white;
   font-family: 'Bariol_Regular';
@@ -94,7 +93,51 @@ h1,h4 {
 }
 
 .cta .row {
-  padding-top: 30px;
+  padding-top: 50px;
+}
+
+/*-----------------------------------------------
+-----------------------------------------------*/
+.cards {
+  background-color: #6cc372;
+  top:-8px;
+  position: relative;
+  padding: 15px 0px 50px 0px;
+}
+.card-img-top {
+  border: 8px solid #6cc372;
+  border-radius: 50%;
+  margin:auto;
+  margin-top: 30px;
+}
+.cards h5 {
+  color:black;
+  text-align: center;
+  font-family: 'Bariol_Regular';
+}
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  height: 100%;
+}
+.card-title {
+  color: black;
+}
+
+.cards .btn img {
+  max-height: 20px;
+  margin-right: 8px;
+}
+
+.card-body {
+  height: 94px;
+}
+/*-----------------------------------------------
+-----------------------------------------------*/
+
+.price {
+  min-height: 500px;
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
@@ -102,5 +145,16 @@ h1,h4 {
     padding-top: 41.5px;
     padding-bottom: 41.5px;
     line-height: 27px;
+  }
+
+  .card-img-top {
+    max-width: 80%;
+    border: 8px solid #6cc372;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+
+.col-sm-6  {
+    margin-bottom: 30px;
   }
 }
