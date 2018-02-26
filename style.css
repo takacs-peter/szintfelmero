@@ -1,4 +1,53 @@
+@font-face {
+  font-family: 'Bariol';
+  url('/fonts/Bariol_Regular.otf');
+}
+
+.body {
+  font-family: 'Bariol';
+}
+a {
+  color: #FFFFFF;
+
+}
+
 .navbar {
   background-color: #f35757;
-  height: 110px;
+  min-height: 110px;
+  color: #FFFFFF;
+}
+
+.navbar-brand {
+ padding: 0 15px;
+ height: 80px;
+ line-height: 80px;
+}
+
+.navbar-toggle {
+ /* (110px - button height 34px) / 2 = 38px */
+ margin-top: 38px;
+ padding: 9px 10px !important;
+}
+
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (110px - button height 34px) / 2 = 38px */
+  margin-top: 38px;
+  padding: 9px 10px !important;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 41.5px;
+    padding-bottom: 41.5px;
+    line-height: 27px;
+  }
 }
