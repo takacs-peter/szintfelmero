@@ -16,7 +16,7 @@ a {
   position: relative;
 }
 .navbar {
-  background-color: #f35757;
+  background-color: #f56262;
   min-height: 110px;
   color: #FFFFFF;
 }
@@ -57,16 +57,44 @@ a {
 h1,h4 {
   text-align: center;
   color:white;
+  font-family: 'Bariol_Regular';
 }
 /*-----------------------------------------------
 -----------------------------------------------*/
 .cta {
   background-color: #202020;
-  height: 300px;
+  min-height: 300px;
+  top: -8px;
+  position: relative;
 }
 
 .cta h4 {
   color: #d13f3f;
+  font-family: 'Bariol_Regular';
+}
+
+
+.img-bg {
+  background-image: url('img/cta-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+}
+.cta img{
+
+}
+.cta h2 {
+  color:white;
+  font-family: 'Bariol_Regular';
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.cta .row {
+  padding-top: 30px;
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
